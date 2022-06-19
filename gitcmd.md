@@ -22,3 +22,4 @@ git pull 	// gets all the commits from remote repo
 git push 	// pushes local commits to remote repo
 git commit --ammend 	// adds the current staging changes to previous commit, after this we need to save using [ESC]wq
 git push --set-upstream origin [branch name]	// push a new branch to remote and set it as upstream origin
+git remote add origin [git repository url ending with .git] // push a newly initailized repo in local to remote git server
